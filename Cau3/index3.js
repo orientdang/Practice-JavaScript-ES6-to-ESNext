@@ -1,2 +1,4 @@
 let str = `cabbage`;
-console.log(str.split('').sort().join(''));
+console.log(`input: ${str}`);
+
+console.log('output: ' + str.split('').sort().join(''));
